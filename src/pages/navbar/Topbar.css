@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.top {
+    width: 98%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    z-index: 999;
+    padding: 12px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.topleft {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topright {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+}
+
+.topcenter {
+    flex: 6;
+}
+
+.topImg {
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+    cursor: pointer;
+}
+
+.topList {
+    display: flex;
+    justify-content: baseline;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topListItem {
+    padding: 12px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    color: white;
+}
+
+.topListItem:hover {
+    background-color: lightskyblue;
+    border-radius: 23px;
+}
+
+.topright {
+    border: solid lightskyblue 2px;
+    padding: 20px;
+    font-size: 300;
+}
+
+.topright:hover {
+    background-color: lightskyblue;
+}
+
+.topRightTitle {
+    font-size: 18px;
+}

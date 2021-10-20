@@ -1,0 +1,57 @@
+.company_main {
+    position: absolute;
+    top: 305%;
+    width: 100%;
+    height: 100%;
+    /* background-color: lightcyan; */
+}
+
+.company_first {
+    display: flex;
+    flex-direction: row;
+    /* background-color: lightcoral; */
+    /* padding-top: 4%; */
+}
+
+.company_content {
+    /* background-color: lightgray; */
+    flex: 5;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 10%;
+    flex-direction: column;
+}
+
+.company_logo {
+    /* background-color: lightgreen; */
+    display: flex;
+    padding: 10%;
+}
+
+.company_img {
+    width: 13rem;
+    height: 13rem;
+}
+
+.Know_button {
+    display: inline-block;
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    margin: 20px;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+hr {
+    border: 0.02rem solid whtie;
+    background-color: white;
+    opacity: 1;
+    margin: auto;
+}

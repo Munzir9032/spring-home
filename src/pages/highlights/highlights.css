@@ -1,0 +1,13 @@
+.high_container {
+    color: red;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #a2d2ff;
+}
+
+.itemMarquee {
+    padding-right: 30px;
+    text-decoration: none;
+}

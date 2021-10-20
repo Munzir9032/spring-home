@@ -1,0 +1,119 @@
+.main_container {
+    position: absolute;
+    top: 200%;
+    background-color: #5367ff;
+}
+
+.first_container {
+    display: flex;
+    background-color: #5367ff;
+    border: none;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.content_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* width: 30%; */
+    flex: 5;
+    background-color: #5367ff;
+    color: white;
+    margin-left: 20px;
+}
+
+.first_right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5367ff;
+    /* width: 30%; */
+    flex: 3;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5367ff;
+    width: 20%;
+    padding: 0;
+    /* width: 30%; */
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.register_img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.register_button {
+    display: inline-block;
+    background-color: lightskyblue;
+    color: #fff;
+    padding: 0.75rem 2.5rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.institute {
+    color: lightskyblue;
+}
+
+.righttext {
+    color: white;
+}
+
+
+/* second container */
+
+.second_container {
+    display: flex;
+    background-color: #5367ff;
+    border: none;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.first_left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5367ff;
+    /* width: 30%; */
+    flex: 3;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.second_content_container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    /* width: 30%; */
+    flex: 5;
+    background-color: #5367ff;
+    color: white;
+    margin-left: 20px;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+hr {
+    border: 0.02rem solid white;
+    background-color: white;
+    opacity: 1;
+    margin: auto;
+}

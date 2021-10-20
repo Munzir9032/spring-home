@@ -1,0 +1,21 @@
+.itemsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 103.5%;
+    background-color: #5367ff;
+    width: 100%;
+    height: 100%;
+}
+
+.itemContent {
+    text-align: center;
+}
+
+.itemContainer {
+    background-color: #5367ff;
+    padding: 20px;
+    margin-right: 50px;
+    width: 100%;
+}
